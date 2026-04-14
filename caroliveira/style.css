@@ -7,3 +7,65 @@ body {
   );
   background-size: cover;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.vidro {
+  position: absolute;
+  width: 60vh;
+  height: 60vh;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+}
+
+.sobre {
+  position: absolute;
+  left: 5vw;
+  top: 5vw;
+  width: 65%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.sites {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 55vh;
+  width: 45vw;
+  height: 5vh;
+}
+
+.linkedin {
+  background-color: #4c61af;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.github {
+  background-color: #4f5052;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
