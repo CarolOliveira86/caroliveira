@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(
+    150deg,
+    rgba(120, 126, 235, 1) 0%,
+    rgb(170, 120, 235) 50%,
+    rgb(135, 120, 235) 100%
+  );
+  background-size: cover;
+}
