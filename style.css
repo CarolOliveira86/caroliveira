@@ -18,12 +18,11 @@ body {
 }
 
 .vidro {
-  position: absolute;
-  width: 60vh;
-  height: 60vh;
+  position: relative;
+  width: 60vw;
+  height: 40vh;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -33,21 +32,21 @@ body {
 
 .sobre {
   position: absolute;
-  left: 5vw;
-  top: 5vw;
-  width: 65%;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  padding: 0 3vw;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre {
+    font-size: 12px;
+  }
 }
 
 .sites {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  top: 55vh;
-  width: 45vw;
-  height: 5vh;
+  position: absolute;
+  top: 38vh;
 }
 
 .linkedin {
@@ -58,6 +57,8 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
 }
 
 .github {
@@ -68,4 +69,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0 3vw;
+  text-decoration: none;
 }
