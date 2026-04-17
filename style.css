@@ -22,7 +22,7 @@ body {
   justify-content: center;
   position: relative;
   width: 60vw;
-  height: 40vh;
+  height: 30vh;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -48,7 +48,7 @@ body {
 
 .sites {
   position: absolute;
-  top: 38vh;
+  top: 28vh;
 }
 
 .linkedin {
