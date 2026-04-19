@@ -40,12 +40,6 @@ body {
   padding: 0 3vw;
 }
 
-@media screen and (max-width: 768px) {
-  .sobre {
-    font-size: 12px;
-  }
-}
-
 .sites {
   position: absolute;
   top: 28vh;
@@ -74,4 +68,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0 3vw;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre {
+    font-size: 12px;
+  }
+  .vidro {
+    height: 50vh;
+  }
+
+  .sites {
+    top: 45vh;
+  }
 }
